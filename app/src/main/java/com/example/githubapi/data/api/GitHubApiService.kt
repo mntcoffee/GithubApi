@@ -1,4 +1,4 @@
 package com.example.githubapi.data.api
 
-class GitHubApiService {
+interface GitHubApiService {
 }
