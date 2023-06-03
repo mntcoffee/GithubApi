@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt' // 追加
+    id 'com.google.dagger.hilt.android' // 追加
 }
 
 android {
