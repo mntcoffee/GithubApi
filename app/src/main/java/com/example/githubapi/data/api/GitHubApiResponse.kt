@@ -1,4 +1,8 @@
 package com.example.githubapi.data.api
 
-class GitHubApiResponse {
-}
+import com.example.githubapi.data.model.SearchItem
+
+/*
+ APIレスポンス
+ */
+data class GitHubApiResponse(val items: List<SearchItem>)
